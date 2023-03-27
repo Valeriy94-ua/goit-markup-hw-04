@@ -184,18 +184,18 @@ body {
 }
 
 .menu-button {
-    
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     display: flex;
     align-items: center;
     letter-spacing: 0.04em;
-    color: var(--menu-background-hover);
+    color: var(--accent-color);
     cursor: pointer;
     border: 1px solid var(--border-menu-button);
     border-radius: 4px;
-    background: var(--menu-background-normal);
+    background-color: var(--menu-background-normal);
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -207,7 +207,7 @@ body {
 .menu-button:hover,
 .menu-button:focus {
     color: var(--usual-white);
-    background: var(--accent-color);
+    background-color: var(--menu-background-hover);
     box-shadow: var(--menu-box-shadow);
     border-radius: 4px;
 }
