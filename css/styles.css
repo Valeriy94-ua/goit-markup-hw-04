@@ -216,8 +216,13 @@ body {
     
 }
 
+.team-info {
+
+}
+
 .team-info-container {
-    background-color: var(--menu-background-normal)
+    background-color: var(--menu-background-normal);
+    
 
 }
 
